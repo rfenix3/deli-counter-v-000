@@ -14,7 +14,7 @@ end
 def take_a_number(katz_deli, newCustomer)
   katz_deli.push(newCustomer)
   lineLength = katz_deli.length
-  puts "Welcome, #{newCustomer}. You are number #{lineLength}
-  
+  puts "Welcome, #{newCustomer}. You are number #{lineLength} in line."
+end
 
 puts line(katz_deli)
