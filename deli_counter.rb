@@ -18,8 +18,12 @@ def take_a_number(katz_deli, newCustomer)
 end
 
 def now_serving(katz_deli)
-  servingCustomer = katz_deli.unshift
-  puts ""
+  if katz_deli.length >=1
+    servingCustomer = katz_deli.unshift
+    puts "Currently serving #{servingCustomer}."
+  else
+    
+  end
 end
 
 take_a_number(katz_deli, "Ada")
