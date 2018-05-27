@@ -31,3 +31,8 @@ take_a_number(katz_deli, "Grace")
 take_a_number(katz_deli, "Kent")
 
 puts line(katz_deli)
+
+now_serving(katz_deli)
+
+puts line(katz_deli)
+
