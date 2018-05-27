@@ -1,6 +1,4 @@
 # Write your code here.
-katz_deli = []
-#katz_deli = ["Ada", "Grace", "Kent"]
 
 def line(customers)
   if customers.length == 0 
@@ -26,13 +24,11 @@ def now_serving(katz_deli)
   end
 end
 
-take_a_number(katz_deli, "Ada")
-take_a_number(katz_deli, "Grace")
-take_a_number(katz_deli, "Kent")
-
-puts line(katz_deli)
-
-now_serving(katz_deli)
-
-puts line(katz_deli)
+#katz_deli = []
+#test scripts take_a_number(katz_deli, "Ada")
+#take_a_number(katz_deli, "Grace")
+#take_a_number(katz_deli, "Kent")
+#puts line(katz_deli)
+#now_serving(katz_deli)
+#puts line(katz_deli)
 
