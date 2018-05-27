@@ -1,6 +1,6 @@
 # Write your code here.
-#katz_deli = []
-katz_deli = ["Ada", "Grace", "Kent"]
+katz_deli = []
+#katz_deli = ["Ada", "Grace", "Kent"]
 
 def line(customers)
   if customers.length == 0 
@@ -16,5 +16,9 @@ def take_a_number(katz_deli, newCustomer)
   lineLength = katz_deli.length
   puts "Welcome, #{newCustomer}. You are number #{lineLength} in line."
 end
+
+take_a_number(katz_deli, "Ada")
+take_a_number(katz_deli, "Grace")
+take_a_number(katz_deli, "Kent")
 
 puts line(katz_deli)
