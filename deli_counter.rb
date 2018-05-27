@@ -19,7 +19,7 @@ end
 
 def now_serving(katz_deli)
   if katz_deli.length >=1
-    servingCustomer = katz_deli.unshift
+    servingCustomer = katz_deli.shift
     puts "Currently serving #{servingCustomer}."
   else
     puts "The line is empty."
