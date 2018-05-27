@@ -22,7 +22,7 @@ def now_serving(katz_deli)
     servingCustomer = katz_deli.unshift
     puts "Currently serving #{servingCustomer}."
   else
-    
+    puts "The line is empty."
   end
 end
 
